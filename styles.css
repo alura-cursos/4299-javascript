@@ -5,13 +5,13 @@
 }
 
 :root {
-    --cor-primaria: #F55B64;
-    --cor-secundaria: #C2373F;
+    --cor-primaria: #ff0077;
+    --cor-secundaria: #ff609f;
     --neutro: #F9F9F9;
     --preto: #131730;
     --fonte-titulo: "Krona One", sans-serif;
     --fonte-texto: 'Numans', sans-serif;
-    --degrade-azul: linear-gradient(180deg, #000000 0%, #26327F 100%);
+    --degrade-azul: linear-gradient(180deg, #a00038 0%, #fc3b8c 100%);
 }
 
 body {
@@ -150,3 +150,9 @@ ul {
 .container-lista {
     width: 100%;
 }
+
+.mensagem-lista-vazia {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    color: rgb(110, 110, 110)
+}   
